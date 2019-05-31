@@ -1,0 +1,32 @@
+.col{
+	width:100%;
+	float:left;
+
+	&.col_4{
+		width:40%;
+	}
+	&.col_45{
+		width:45%;
+	}
+	&.col_5{
+		width:50%;
+	}
+	&.col_6{
+		width:60%;
+	}
+	&.col_8{
+		width:80%;
+	}
+	&.col_12{
+		width:100%;
+	}
+}
+
+.newcol{
+	display: inline-block;
+	vertical-align: top;
+	width:100%;
+	&.col_45{
+		width:45%;
+	}
+}

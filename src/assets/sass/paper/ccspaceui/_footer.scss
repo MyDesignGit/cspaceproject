@@ -1,0 +1,22 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    margin: 15px 0;
+    width: 100%;
+    left:0;
+    ul{
+        list-style: none;
+        padding: 0 15px;
+        font-size: .75em;
+        color: #F9B131;
+        li{
+            float: left;
+            padding-right:40px;
+            a{
+                color: #F9B131;
+                text-decoration: none;
+                text-transform: lowercase;
+            }
+        }
+    }
+}

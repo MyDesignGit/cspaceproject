@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('/static/fonts/Agrandir-RegularC3.woff2') format('woff2'),
+        url('/static/fonts/Agrandir-RegularC3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  // font-family: 'Muli', "Helvetica", Arial, sans-serif;
+   font-family: 'Agrandir';
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+	color: #0B4D8A;
+}

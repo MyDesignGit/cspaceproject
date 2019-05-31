@@ -1,0 +1,54 @@
+$yellow: #F9B131;
+$light: #efefef;
+$blue: #0B4D8A;
+
+.input-group{
+	display:block;
+	padding-bottom:20px;
+}
+label{
+	padding:0 0 8px 15px;
+	display:block;
+	font-weight:600;
+	font-size:1.15em;
+}
+input{
+	border:2px solid $yellow;
+	padding:15px 8px;
+	border-radius:30px;
+	width:480px;
+	display:block;
+	&:focus{
+		outline:none;
+		-webkit-box-shadow:none;
+		-moz-box-shadow:none;
+		-o-box-shadow:none;
+		box-shadow:none;
+	}
+}
+
+
+.button-label {
+  display: inline-block;
+  padding: 15px 0;
+  margin: 12px;
+  width:120px;
+  text-align:center;
+  cursor: pointer;
+  color: $blue;
+  border-radius: 30px;
+  background: $light;
+  transition: 0.3s;
+  user-select: none;
+}
+
+input:checked + .button-label {
+  background: $yellow;
+  color: $blue;
+}
+
+
+
+.hidden {
+  display: none;
+}

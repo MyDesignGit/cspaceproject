@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+
+	.bg{
+	background: url('/static/img/bg.jpg') no-repeat ;
+	background:cover;
+	 background-position: center; 
+}
+
+.herologo{
+margin-right: 10%;
+}
+.herologo img{
+	padding-top: 50px;
+	width: 100%;
+	
+}
+
+.ccSpaceFlowList,.herologo{
+padding-top: 100px;
+display: inline-block;
+width: 48%;
+}
+}
+.formContainer{
+	width: 100%;
+}
+
+.subjectCentre{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	padding: 150px 0;
+}
+
+.subjectCentre:after {
+  content: '';
+  height: 100%; //You can change this if you want smaller/bigger borders
+  width: 1px;
+
+  position: absolute;
+  right: 0;
+  top: 0; // If you want to set a smaller height and center it, change this value
+
+  background-color: #F9B131; // The color of your border
+}
+

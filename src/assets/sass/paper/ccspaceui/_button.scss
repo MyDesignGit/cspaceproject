@@ -1,0 +1,71 @@
+.btn{
+	position: relative;
+	padding: 15px 00px;
+	background: #000;
+	color: #ffffff;
+	border-radius: 50px;
+	width: 120px;
+	font-size: 1em;
+	text-transform:lowercase;
+	cursor: pointer;
+	&.btn-yellow{
+		background:#F9B131;
+		color:#0B4D8A;
+		display: inline-block;
+		margin-left: 30px;
+	}
+	&.btn-blue{
+		background:#0B4D8A;
+	}
+	&.btn-selecion{
+		    background: #0B4D8A;
+    width: 147px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+	}
+	&.book-btn{
+	background: #fff;
+    color: #0B4D8A;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+	}
+
+}
+
+.btn.btn-yellow:hover{
+  background:#0B4D8A;
+  color:#F9B131;
+
+}
+
+.btn.btn-blue:hover{
+  color:#0B4D8A;
+  background:#F9B131;
+
+}
+
+.btn.btn-yellow,.btn.btn-blue {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.btn.btn-yellow:after,.btn.btn-blue:after {
+  opacity: 1;
+  right: 0;
+}
+
+.schedulebtn{
+
+	font-size: 40px;
+	text-align: left;
+	color: #F9B131;
+	cursor: pointer;
+	// margin-left: 30px;
+}
